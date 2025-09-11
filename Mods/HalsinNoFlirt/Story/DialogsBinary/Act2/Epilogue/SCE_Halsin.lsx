@@ -4647,12 +4647,12 @@
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="9b4c87a5-a311-e986-158b-0ee555dadfc1" />
 										</node>
-										<node id="child">
+										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="9a81da08-1343-1915-911b-0eda8b3b306a" />
-										</node>
-										<node id="child">
+										</node> -->
+										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="7018d69e-e98b-ea82-0764-93cd613cadfd" />
-										</node>
+										</node> -->
 									</children>
 								</node>
 								<node id="GameData">
