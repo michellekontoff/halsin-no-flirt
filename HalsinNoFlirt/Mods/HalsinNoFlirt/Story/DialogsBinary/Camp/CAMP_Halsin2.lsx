@@ -4976,6 +4976,7 @@
 								</node>
 							</children>
 						</node>
+						<!-- Honestly? Let's just forget it ever happened. -->
 						<node id="node" key="UUID">
 							<attribute id="constructor" type="FixedString" value="TagQuestion" />
 							<attribute id="UUID" type="FixedString" value="50d75e8b-d3f0-5db2-d0e6-dee9f2477419" />
@@ -9704,6 +9705,7 @@
 								</node>
 							</children>
 						</node>
+						<!-- Of course. Whatever you wish. -->
 						<node id="node" key="UUID">
 							<attribute id="constructor" type="FixedString" value="TagAnswer" />
 							<attribute id="UUID" type="FixedString" value="9fd1da29-41cb-3a13-0d25-5f4b2bb71e87" />
@@ -9733,6 +9735,15 @@
 													<attribute id="UUID" type="FixedString" value="a0373d03-25c1-bb02-a71f-f0844193153e" />
 													<attribute id="value" type="bool" value="False" />
 													<attribute id="paramval" type="int32" value="1" />
+												</node>
+											</children>
+										</node>
+										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Global" />
+											<children>
+												<node id="flag" key="UUID">
+													<attribute id="UUID" type="FixedString" value="7ddc1485-8f29-4116-878b-a875649c5eaf" />
+													<attribute id="value" type="bool" value="False" />
 												</node>
 											</children>
 										</node>
