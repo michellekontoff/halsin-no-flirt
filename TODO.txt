@@ -1,0 +1,18 @@
+[x] need halsin romance path flag: existing (FLAG)GLO_Halsin_State_FlirtedWithPlayer_7ddc1485-8f29-4116-878b-a875649c5eaf
+
+[] Need Osiris Script / May not be necessary!!
+    [] Need DB_KeloVDF_HalsinFlirted that tracks whether a specific player has flirted with Halsin.
+    [] Upon entering the Mindflayer Colony, if any of the flirted flags are true on the player, set OnRomancePath to true for them.
+    [] Romance path is also checked again on entering Act 3?
+
+[] Dialogue Edits
+    [] One "what now" is the RomancePath where he suggests he wants more
+    [] One is platonic path were he talks about being friends. Make the difference be the check on RomancePatch flag
+    [] CAMP_Halsin2_Event_FlirtedWitHalsinInSCL is set to true if on platonic path you ask "Friends and nothing more, then?"
+    [] Above changes need to be applied to both Camp_Halsin2 and SCE_Halsin
+    [] Act 3 InParty will have an option to turn him down if he is on the Romance Path
+        [] Possibly reuse the ending our fling line for option
+        [] Steal rejection response from his act 3 romance CRD
+        [] clear (FLAG)GLO_Halsin_State_FlirtedWithPlayer_7ddc1485-8f29-4116-878b-a875649c5eaf when chosen
+    [] Halsin will confess to the player ONLY if he has 20+ approval and is on the Romance Path
+    [] When telling Halsin to forget about the flirting, also clear (FLAG)GLO_Halsin_State_FlirtedWithPlayer_7ddc1485-8f29-4116-878b-a875649c5eaf
