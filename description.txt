@@ -1,0 +1,40 @@
+[center][b][u][size=6]Mod Features:[/size][/u][/b][/center]
+Apologizing to Halsin for coming on too strong is only available if you actually flirted with him at the Tiefling Party.
+When asked what Halsin wants at the end of Act 2, he will not tell you what he wants is a who. (The option that leads to that and the horny duergar option has been removed).
+In Act 3, if you meet the requirements to unlock his camp night conversation, he will not confess to you. You will instead always get the platonic version of this scene.
+
+[size=5][b][u]Compatibility:[/u][/b][/size]
+Compatible with all my other mods!
+
+Not good for multiplayer runs where someone may want to romance Halsin. This mod locks everyone out. Sorry.
+
+Files edited:
+[spoiler]
+Mods\Gustav\Story\DialogsBinary\Camp\NPCs\CAMP_GoblinHuntCelebration_Halsin.lsf
+Mods\GustavDev\Story\DialogsBinary\Camp\CAMP_Halsin2.lsf
+Mods\GustavDev\Story\DialogsBinary\Act2\Epilogue\SCE_Halsin.lsf
+Mods\GustavDev\Story\DialogsBinary\Camp\Camp_Relationship_Dialogs\Camp_Act3_CRD_HalsinRomance.lsf
+[/spoiler]
+
+[size=5][b][u]Installation:[/u][/b][/size]
+Import into [url=https://bg3modmanager.net/]BG3MM[/url] (recommended) or drop into your mods folder.
+
+[size=4][b][u][color=orange]Load Order[/color]:[/u][/b][/size]
+Not super important, I don't think, but recommended towards the bottom with other tweaks.
+
+[size=5][b][u]Uninstallation:[/u][/b][/size]
+Disable via BG3MM or delete the pak.
+
+[b][u][size=5]My mods:[/size][/u][/b]
+[url=https://www.nexusmods.com/baldursgate3/mods/17091]Various Dialogue Fixes[/url]
+[url=https://www.nexusmods.com/baldursgate3/mods/18255]Recruit Karlach Earlier[/url]
+[url=https://www.nexusmods.com/baldursgate3/mods/17157]Bath Before Bed (Clean Camp Nights)[/url]
+[url=https://www.nexusmods.com/baldursgate3/mods/17853]Withers Minds His Business[/url]
+[url=https://www.nexusmods.com/baldursgate3/mods/17733]Baldur's Circus (Laugh Track Mod)[/url]
+[url=https://www.nexusmods.com/baldursgate3/mods/18548]Waterproof Shadowheart[/url]
+
+[size=4]Thanks for the individuals creating the tools that made this possible![/size]
+[url=https://next.nexusmods.com/profile/LaughingLeader]LaughingLeader[/url] for making the incredible BG3 Mod Manager
+[url=https://github.com/ShinyHobo]ShinyHobo[/url] for the BG3 multitool
+[url=https://github.com/Norbyte]Norbyte[/url] for LSLib converter and the incredible search engine.
+[url=https://www.tumblr.com/roksik-dnd/727481314781102080/bg3-datamined-dialogue-google-drive]roksik-dnd's anonymous friend for the dialogue parser[/url]

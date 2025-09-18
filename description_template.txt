@@ -1,0 +1,39 @@
+[center][b][u][size=6]Mod Features:[/size][/u][/b][/center]
+
+
+[size=3][b][u][color=orange]Optional Files Explanation[/color]:[/u][/b][/size]
+
+[size=5][b][u]Compatibility:[/u][/b][/size]
+Compatible with all my other mods!
+
+Files edited:
+
+[size=5][b][u]Installation:[/u][/b][/size]
+Import into [url=https://bg3modmanager.net/]BG3MM[/url] (recommended) or drop into your mods folder.
+
+[size=4][b][u][color=orange]Load Order[/color]:[/u][/b][/size]
+If you are using champagne's [url=https://www.nexusmods.com/baldursgate3/mods/15851]load order dividers[/url], 
+
+[size=5][b][u]Uninstallation:[/u][/b][/size]
+Disable the base mod and/or the Immersion Patch via BG3MM or delete the pak.
+
+[url=https://www.nexusmods.com/baldursgate3/mods/9701]Mod Uninstaller[/url]
+
+[b][u][size=5]My mods:[/size][/u][/b]
+[url=https://www.nexusmods.com/baldursgate3/mods/17091]Various Dialogue Fixes[/url]
+[url=https://www.nexusmods.com/baldursgate3/mods/18255]Recruit Karlach Earlier[/url]
+[url=https://www.nexusmods.com/baldursgate3/mods/17157]Bath Before Bed (Clean Camp Nights)[/url]
+[url=https://www.nexusmods.com/baldursgate3/mods/17853]Withers Minds His Business[/url]
+[url=https://www.nexusmods.com/baldursgate3/mods/17733]Baldur's Circus (Laugh Track Mod)[/url]
+[url=https://www.nexusmods.com/baldursgate3/mods/18548]Waterproof Shadowheart[/url]
+
+[size=5][b][u]Thank You:[/u][/b][/size]
+[url=https://next.nexusmods.com/profile/magnetuning?gameId=3474]Magnetuning[/url]﻿ for his support, Timeline Updater Tool, and invaluable expertise in dialogue editing to fix those darn camera angles!
+[url=https://next.nexusmods.com/profile/EmeraldTechno?gameId=3474]EmeraldTechno[/url] for the genius idea of using the Toolkit to pack the text handle overrides!
+[url=https://next.nexusmods.com/profile/Volitio]Volitio[/url] for help testing the Summon Karlach scroll!
+
+[size=4]More thanks for the individuals creating the tools that made this possible![/size]
+[url=https://next.nexusmods.com/profile/LaughingLeader]LaughingLeader[/url] for making the incredible BG3 Mod Manager
+[url=https://github.com/ShinyHobo]ShinyHobo[/url] for the BG3 multitool
+[url=https://github.com/Norbyte]Norbyte[/url] for LSLib converter and the incredible search engine.
+[url=https://www.tumblr.com/roksik-dnd/727481314781102080/bg3-datamined-dialogue-google-drive]roksik-dnd's anonymous friend for the dialogue parser[/url]
