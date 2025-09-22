@@ -13,7 +13,7 @@ But as long as you finish Halsin's Act 2 quest and are nice when you speak to [r
 
 How to set Halsin's flirt flag*:
 
-*You only need to do one of these.
+*You only need to do one of these listed below
 
 Act 1
 At the tiefling party, tell him "There's something we could do besides talking."
@@ -26,3 +26,8 @@ Or
 2) "Perhaps I could share more than a camp fire and some company..."
 
 If you've already flirted with him in Act 1, you may not get the tree with those paths until Act 2. But as previously mentioned, you only need to flirt once in any act.
+
+Act 2 Epilogue
+If you're on the platonic path at this point because you haven't flirted yet, if you've finished Halsin's quest, you will have one last opportunity to flirt with him.
+Ask him "What now?" and then say "So just friends, then?"
+
