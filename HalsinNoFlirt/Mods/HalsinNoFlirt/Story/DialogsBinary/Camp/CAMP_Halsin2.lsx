@@ -3665,7 +3665,20 @@
 									</children>
 								</node>
 								<node id="Tags" />
-								<node id="setflags" />
+								<node id="setflags">
+									<children>
+										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Dialog" />
+											<children>
+												<node id="flag" key="UUID">
+													<attribute id="UUID" type="FixedString" value="1521059b-2dfb-12da-7b9a-bd1cd968670c" />
+													<attribute id="value" type="bool" value="True" />
+													<attribute id="paramval" type="int32" value="1" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
 								<node id="checkflags" />
 								<node id="TaggedTexts">
 									<children>
