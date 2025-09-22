@@ -1391,7 +1391,7 @@
 											<attribute id="UUID" type="FixedString" value="9bff5655-4f4a-47ad-9cb5-d4a053bd3f6b" />
 										</node>
 										<node id="child">
-											<attribute id="UUID" type="FixedString" value="954847d8-d034-6d98-b3c2-aeaf4bf7fcd7" />
+											<attribute id="UUID" type="FixedString" value="827cdbf9-de49-1349-f77e-a63c4cf044cb" />
 										</node>
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="177445a8-4ea8-89cb-392e-d28b1db5e898" />
@@ -3665,7 +3665,20 @@
 									</children>
 								</node>
 								<node id="Tags" />
-								<node id="setflags" />
+								<node id="setflags">
+									<children>
+										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Dialog" />
+											<children>
+												<node id="flag" key="UUID">
+													<attribute id="UUID" type="FixedString" value="1521059b-2dfb-12da-7b9a-bd1cd968670c" />
+													<attribute id="value" type="bool" value="True" />
+													<attribute id="paramval" type="int32" value="1" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
 								<node id="checkflags" />
 								<node id="TaggedTexts">
 									<children>
@@ -4976,6 +4989,7 @@
 								</node>
 							</children>
 						</node>
+						<!-- Honestly? Let's just forget it ever happened. -->
 						<node id="node" key="UUID">
 							<attribute id="constructor" type="FixedString" value="TagQuestion" />
 							<attribute id="UUID" type="FixedString" value="50d75e8b-d3f0-5db2-d0e6-dee9f2477419" />
@@ -5353,27 +5367,29 @@
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="fdc40393-bc8f-4c5f-b577-ddc8e60c6659" />
 										</node>
-										<node id="child">
+										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="c1f5bf1a-7247-45c0-a9be-2aa7611f362a" />
-										</node>
+										</node> -->
+									<!-- Romantic v of what now -->
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="78b034de-55d9-6147-6f83-a5b54b5d6756" />
 										</node>
-										<node id="child">
+										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="95d6e4cd-1579-f79b-2be1-d4a9853a2713" />
-										</node>
-										<node id="child">
+										</node> -->
+										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="f17c58c5-ba38-aade-c855-84f9944c2eaf" />
-										</node>
+										</node> -->
+									<!-- Platonic v of what now -->
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="c48202b1-ef36-3abd-3943-20968c34590e" />
 										</node>
-										<node id="child">
+										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="18a3f07f-40cb-ec38-3c38-cba28caf203a" />
-										</node>
-										<node id="child">
+										</node> -->
+										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="6ba1866b-1754-9e67-75db-64f7ccaf4687" />
-										</node>
+										</node> -->
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="3f31798d-ec8e-4318-89c4-a3814cbcd663" />
 										</node>
@@ -6891,6 +6907,7 @@
 								</node>
 							</children>
 						</node>
+						<!-- Romantic What Now? -->
 						<node id="node" key="UUID">
 							<attribute id="constructor" type="FixedString" value="TagQuestion" />
 							<attribute id="UUID" type="FixedString" value="78b034de-55d9-6147-6f83-a5b54b5d6756" />
@@ -6912,7 +6929,7 @@
 									</children>
 								</node>
 								<node id="Tags" />
-								<node id="setflags">
+								<node id="setflags" >
 									<children>
 										<node id="flaggroup" key="type">
 											<attribute id="type" type="FixedString" value="Dialog" />
@@ -6929,27 +6946,11 @@
 								<node id="checkflags">
 									<children>
 										<node id="flaggroup" key="type">
-											<attribute id="type" type="FixedString" value="Dialog" />
+											<attribute id="type" type="FixedString" value="Global" />
 											<children>
 												<node id="flag" key="UUID">
-													<attribute id="UUID" type="FixedString" value="d7bf2e99-1715-0dba-3116-549a869a4202" />
+													<attribute id="UUID" type="FixedString" value="7ddc1485-8f29-4116-878b-a875649c5eaf" />
 													<attribute id="value" type="bool" value="True" />
-													<attribute id="paramval" type="int32" value="1" />
-												</node>
-												<node id="flag" key="UUID">
-													<attribute id="UUID" type="FixedString" value="1521059b-2dfb-12da-7b9a-bd1cd968670c" />
-													<attribute id="value" type="bool" value="True" />
-													<attribute id="paramval" type="int32" value="1" />
-												</node>
-												<node id="flag" key="UUID">
-													<attribute id="UUID" type="FixedString" value="a0373d03-25c1-bb02-a71f-f0844193153e" />
-													<attribute id="value" type="bool" value="False" />
-													<attribute id="paramval" type="int32" value="1" />
-												</node>
-												<node id="flag" key="UUID">
-													<attribute id="UUID" type="FixedString" value="88017c41-1fbc-bb56-a03b-d4f11d10a01c" />
-													<attribute id="value" type="bool" value="False" />
-													<attribute id="paramval" type="int32" value="1" />
 												</node>
 											</children>
 										</node>
@@ -7650,6 +7651,7 @@
 								<node id="checkflags" />
 							</children>
 						</node>
+						<!-- Apology -->
 						<node id="node" key="UUID">
 							<attribute id="constructor" type="FixedString" value="TagQuestion" />
 							<attribute id="UUID" type="FixedString" value="827cdbf9-de49-1349-f77e-a63c4cf044cb" />
@@ -7688,6 +7690,15 @@
 								<node id="checkflags">
 									<children>
 										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Global" />
+											<children>
+												<node id="flag" key="UUID">
+													<attribute id="UUID" type="FixedString" value="f6e72539-9bc6-42e1-a20f-390f3a17ad8d" />
+													<attribute id="value" type="bool" value="False" />
+												</node>
+											</children>
+										</node>
+										<node id="flaggroup" key="type">
 											<attribute id="type" type="FixedString" value="Dialog" />
 											<children>
 												<node id="flag" key="UUID">
@@ -7712,7 +7723,7 @@
 												<node id="TagTexts">
 													<children>
 														<node id="TagText">
-															<attribute id="TagText" type="TranslatedString" handle="hd7892868ga893g481agb945g68dbacab9388" version="1" />
+															<attribute id="TagText" type="TranslatedString" handle="h8a4bb07bgfc95g433fgb396g392e4d716560" version="1" />
 															<attribute id="LineId" type="guid" value="0bd03276-870f-4cc4-aa6f-6bd574dcd6b6" />
 															<attribute id="stub" type="bool" value="True" />
 														</node>
@@ -9704,6 +9715,7 @@
 								</node>
 							</children>
 						</node>
+						<!-- Of course. Whatever you wish. -->
 						<node id="node" key="UUID">
 							<attribute id="constructor" type="FixedString" value="TagAnswer" />
 							<attribute id="UUID" type="FixedString" value="9fd1da29-41cb-3a13-0d25-5f4b2bb71e87" />
@@ -9733,6 +9745,15 @@
 													<attribute id="UUID" type="FixedString" value="a0373d03-25c1-bb02-a71f-f0844193153e" />
 													<attribute id="value" type="bool" value="False" />
 													<attribute id="paramval" type="int32" value="1" />
+												</node>
+											</children>
+										</node>
+										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Global" />
+											<children>
+												<node id="flag" key="UUID">
+													<attribute id="UUID" type="FixedString" value="7ddc1485-8f29-4116-878b-a875649c5eaf" />
+													<attribute id="value" type="bool" value="False" />
 												</node>
 											</children>
 										</node>
@@ -11927,6 +11948,7 @@
 								</node>
 							</children>
 						</node>
+						<!-- Platonic what now. -->
 						<node id="node" key="UUID">
 							<attribute id="constructor" type="FixedString" value="TagQuestion" />
 							<attribute id="UUID" type="FixedString" value="c48202b1-ef36-3abd-3943-20968c34590e" />
@@ -11965,27 +11987,11 @@
 								<node id="checkflags">
 									<children>
 										<node id="flaggroup" key="type">
-											<attribute id="type" type="FixedString" value="Dialog" />
+											<attribute id="type" type="FixedString" value="Global" />
 											<children>
 												<node id="flag" key="UUID">
-													<attribute id="UUID" type="FixedString" value="d7bf2e99-1715-0dba-3116-549a869a4202" />
-													<attribute id="value" type="bool" value="True" />
-													<attribute id="paramval" type="int32" value="1" />
-												</node>
-												<node id="flag" key="UUID">
-													<attribute id="UUID" type="FixedString" value="1521059b-2dfb-12da-7b9a-bd1cd968670c" />
+													<attribute id="UUID" type="FixedString" value="7ddc1485-8f29-4116-878b-a875649c5eaf" />
 													<attribute id="value" type="bool" value="False" />
-													<attribute id="paramval" type="int32" value="1" />
-												</node>
-												<node id="flag" key="UUID">
-													<attribute id="UUID" type="FixedString" value="a0373d03-25c1-bb02-a71f-f0844193153e" />
-													<attribute id="value" type="bool" value="False" />
-													<attribute id="paramval" type="int32" value="1" />
-												</node>
-												<node id="flag" key="UUID">
-													<attribute id="UUID" type="FixedString" value="88017c41-1fbc-bb56-a03b-d4f11d10a01c" />
-													<attribute id="value" type="bool" value="False" />
-													<attribute id="paramval" type="int32" value="1" />
 												</node>
 											</children>
 										</node>
@@ -14293,9 +14299,9 @@
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="1a00cb63-3bcb-7e70-fd3a-f3d52660aeb0" />
 										</node>
-										<node id="child">
+										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="827cdbf9-de49-1349-f77e-a63c4cf044cb" />
-										</node>
+										</node> -->
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="27882a87-e6aa-fe55-35b5-d93cf4bdb917" />
 										</node>

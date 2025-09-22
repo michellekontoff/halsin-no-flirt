@@ -1,0 +1,40 @@
+[x] need halsin romance path flag: existing (FLAG)GLO_Halsin_State_FlirtedWithPlayer_7ddc1485-8f29-4116-878b-a875649c5eaf
+
+[] Dialogue Edits
+    [x] One "what now" is the RomancePath where he suggests he wants more
+    [x] One is platonic path were he talks about being friends. Make the difference be the check on RomancePatch flag
+    [x] CAMP_Halsin2_Event_FlirtedWitHalsinInSCL is set to true if on platonic path you ask "Friends and nothing more, then?"
+    [x] Above changes need to be applied to both Camp_Halsin2 and SCE_Halsin
+    [] Act 3 InParty will have an option to turn him down if he is on the Romance Path?
+        [] Possibly reuse the ending our fling line for option
+        [] Steal rejection response from his act 3 romance CRD
+        [] clear (FLAG)GLO_Halsin_State_FlirtedWithPlayer_7ddc1485-8f29-4116-878b-a875649c5eaf when chosen
+    [] Halsin will confess to the player ONLY if he has 30+ approval and is on the Romance Path
+    [x] When telling Halsin to forget about the flirting, also clear (FLAG)GLO_Halsin_State_FlirtedWithPlayer_7ddc1485-8f29-4116-878b-a875649c5eaf
+
+    still need to add halsin answer nodes, the Q's for those, and the related timeline phases for SCE_Halsin
+
+    nodes that need timeline phases added
+    [x] 401e9cc5-21b3-6fb0-a05f-c5d64807914b group
+        [x] 401e9cc5-21b3-6fb0-a05f-c5d64807914b
+        [x] a5049fa9-7034-eb6d-87cb-6564440c92ec
+    [x] 6b353fd3-396b-8735-eec2-00a1dc06cf05
+    [x] 741eee0e-0141-1580-2635-cd1605721d2c group
+        [x] 741eee0e-0141-1580-2635-cd1605721d2c
+        [x] 3d518e3b-0ac8-3e3c-03fc-804a8ee935a5
+    [] 83638d8e-72d2-066e-3aff-a0583830c3be
+
+    camp halsin 5857c874-40f2-20ed-24f6-32cca4a6d647
+    sce halsin bd19722f-85aa-40ad-a013-8928e0abe02a
+
+    camp tav 45163d0c-5e1f-843f-c115-3d10fd0c6737
+    sce tav a8a9ebe3-c89f-4936-baa8-60baae6bf3f5
+
+CAMP
+??
+
+SCE
+    tav ots camera 4f908d4d-07cd-4b37-836b-05ce7097e8cf
+    halsin closeup 852cc45a-5339-4684-87d7-ace94dbb095a
+    halsin midzoom 052b116c-dffb-4711-b3dc-2a9ebae8a1d0
+    endshot on tav cae6d882-4f7e-4515-8c1d-9ae5945d2360

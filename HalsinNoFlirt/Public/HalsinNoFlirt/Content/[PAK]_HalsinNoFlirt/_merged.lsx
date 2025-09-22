@@ -138,6 +138,81 @@
 					</children>
 				</node>
 
+				<node id="Resource">
+					<attribute id="AllowDeadSpeakers" type="bool" value="False" />
+					<attribute id="BlockFTB" type="bool" value="True" />
+					<attribute id="EnableTimeline" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="890c2586-6b71-ca01-5bd6-19d533181c71" />
+					<attribute id="IsAllowingJoinCombat" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Halsin_InParty" />
+					<attribute id="SourceFile" type="LSString" value="Mods/HalsinNoFlirt/Story/Dialogs/Companions/Halsin_InParty.lsj" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144959613005988540" />
+					<attribute id="automated" type="bool" value="False" />
+					<attribute id="isBehaviour" type="bool" value="False" />
+					<attribute id="isPrivateDialog" type="bool" value="False" />
+					<attribute id="isSubbedDialog" type="bool" value="False" />
+					<attribute id="isWorld" type="bool" value="False" />
+					<children>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="True" />
+						</node>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="True" />
+						</node>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="True" />
+						</node>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="True" />
+						</node>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="True" />
+						</node>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="True" />
+						</node>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="True" />
+						</node>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="True" />
+						</node>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="True" />
+						</node>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="True" />
+						</node>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="False" />
+						</node>
+						<node id="SpeakerSlotsWithLines">
+							<attribute id="HasLines" type="bool" value="False" />
+						</node>
+						<node id="childResources">
+							<attribute id="Object" type="guid" value="12ef293e-01cc-8884-ad52-22231c24fc1f" />
+						</node>
+						<node id="childResources">
+							<attribute id="Object" type="guid" value="cea93725-c990-acaf-df05-cc9d8da13af0" />
+						</node>
+						<node id="childResources">
+							<attribute id="Object" type="guid" value="d2da55e7-a82c-0a9a-a8de-a542cf9ad94e" />
+						</node>
+						<node id="childResources">
+							<attribute id="Object" type="guid" value="bb53764d-784f-630a-ae2e-46088b576846" />
+						</node>
+						<node id="childResources">
+							<attribute id="Object" type="guid" value="002e501b-6f1b-8357-1fde-20b1b4b7c1b9" />
+						</node>
+						<node id="childResources">
+							<attribute id="Object" type="guid" value="5d146f76-a757-86ff-301c-0b43619e02c5" />
+						</node>
+						<node id="childResources">
+							<attribute id="Object" type="guid" value="c8bcd0a7-b8d5-ea1e-bcef-df175049636d" />
+						</node>
+					</children>
+				</node>
+
 			</children>
 		</node>
 	</region>

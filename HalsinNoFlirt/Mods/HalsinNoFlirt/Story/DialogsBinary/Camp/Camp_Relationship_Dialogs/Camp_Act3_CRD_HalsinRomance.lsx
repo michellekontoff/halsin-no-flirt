@@ -2553,12 +2553,9 @@
 							<children>
 								<node id="children">
 									<children>
-										<!-- <node id="child">
-											<attribute id="UUID" type="FixedString" value="f71c4a80-3778-1c5f-7484-4ba2bc8193ca" />
-										</node>
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="82aca67a-fcd6-73a4-7a38-21a921f13b41" />
-										</node> -->
+										</node>
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="25fea2e2-ab6f-191e-6c2b-8b8076328f82" />
 										</node>
@@ -3061,10 +3058,19 @@
 								<node id="checkflags">
 									<children>
 										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Global" />
+											<children>
+												<node id="flag" key="UUID">
+													<attribute id="UUID" type="FixedString" value="7ddc1485-8f29-4116-878b-a875649c5eaf" />
+													<attribute id="value" type="bool" value="True" />
+												</node>
+											</children>
+										</node>
+										<node id="flaggroup" key="type">
 											<attribute id="type" type="FixedString" value="Object" />
 											<children>
 												<node id="flag" key="UUID">
-													<attribute id="UUID" type="FixedString" value="98ca7185-0f2d-4420-be81-2b7c5e109e91" />
+													<attribute id="UUID" type="FixedString" value="91cfff92-fb1e-caf5-9d5c-9c5971b96d04" />
 													<attribute id="value" type="bool" value="True" />
 													<attribute id="paramval" type="int32" value="0" />
 												</node>

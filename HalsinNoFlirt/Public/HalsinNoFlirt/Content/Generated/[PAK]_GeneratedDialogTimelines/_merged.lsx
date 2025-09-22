@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids,lsf_adjacency" />
+	<region id="TimelineBank">
+		<node id="TimelineBank">
+			<children>
+
+			<node id="Resource">
+				<attribute id="BodyPartMocap" type="int32" value="1" />
+				<attribute id="DialogResourceId" type="guid" value="12ef293e-01cc-8884-ad52-22231c24fc1f" />
+				<attribute id="EditorSourceFile" type="LSString" value="Editor/Mods/HalsinNoFlirt/Timeline/Generated/SCE_Halsin.tml" />
+				<attribute id="EditorTimelineType" type="int32" value="0" />
+				<attribute id="FadeOutDuration" type="float" value="0" />
+				<attribute id="FadeOutOnEnd" type="bool" value="False" />
+				<attribute id="ID" type="FixedString" value="07bc666f-346e-4d4b-1e4c-b9f89ad246cd" />
+				<attribute id="IsGenerated" type="bool" value="True" />
+				<attribute id="Name" type="LSString" value="SCE_Halsin" />
+				<attribute id="SourceFile" type="LSString" value="Public/HalsinNoFlirt/Timeline/Generated/SCE_Halsin.lsf" />
+				<attribute id="_OriginalFileVersion_" type="int64" value="144959613005987841" />
+				<children>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="12ef293e-01cc-8884-ad52-22231c24fc1f" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="7628bc0e-52b8-42a7-856a-13a6fd413323" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="aa772968-b5e0-4441-8d86-2d0506b4aab5" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="ad9af97d-75da-406a-ae13-7071c563f604" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="f15d0634-fd12-426f-846b-81877057f83f" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="19dc6cab-aa38-4f09-b9cf-546e1c0ecb8a" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="47868000-4dd7-4cc6-a0ee-5de4bdcd9901" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="4b24aa06-d66e-417e-a912-117a45bf84a2" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="852cc45a-5339-4684-87d7-ace94dbb095a" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="052b116c-dffb-4711-b3dc-2a9ebae8a1d0" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="cae6d882-4f7e-4515-8c1d-9ae5945d2360" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="4f908d4d-07cd-4b37-836b-05ce7097e8cf" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="08330455-80c1-4a66-becb-31e2e68cbf04" />
+					</node>
+					<node id="DependencyCache">
+						<attribute id="Object" type="guid" value="77aa4698-0c95-4351-8145-302b0bca997a" />
+					</node>
+				</children>
+			</node>
+			
+			</children>
+		</node>
+	</region>
+</save>
