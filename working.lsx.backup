@@ -1,13 +1,12 @@
-							<!-- <utmost> -->
+							<!-- <indeed> -->
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="b9824e9b-8a81-485a-9ba7-1a603a3c6955" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="83638d8e-72d2-066e-3aff-a0583830c3be" />
-									<attribute id="ReferenceId" type="guid" value="83638d8e-72d2-066e-3aff-a0583830c3be" />
+									<attribute id="ID" type="guid" value="47da61c0-f7df-4ed5-837c-20e78da1bd6c" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="513.59448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
+									<attribute id="DialogNodeId" type="guid" value="401e9cc5-21b3-6fb0-a05f-c5d64807914b" />
+									<attribute id="ReferenceId" type="guid" value="401e9cc5-21b3-6fb0-a05f-c5d64807914b" />
 									<attribute id="PerformanceFade" type="double" value="0" />
 									<attribute id="FadeIn" type="double" value="0" />
 									<attribute id="FadeOut" type="double" value="0" />
@@ -19,10 +18,23 @@
 								</node>
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLAttitudeEvent" />
-									<attribute id="ID" type="guid" value="59c5729c-760e-4fbc-bb39-ed62b983484b" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
+									<attribute id="ID" type="guid" value="e2f02152-2d30-47b8-9172-1c2b9f06174b" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
+									<attribute id="IsSnappedToEnd" type="bool" value="True" />
+									<children>
+										<node id="Actor">
+											<attribute id="UUID" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
+										</node>
+									</children>
+								</node>
+								<node id="EffectComponent">
+									<attribute id="Type" type="LSString" value="TLAttitudeEvent" />
+									<attribute id="ID" type="guid" value="91708552-1aac-4721-b019-5803e33e2917" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
 									<children>
 										<node id="Actor">
@@ -32,10 +44,10 @@
 								</node>
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLAttitudeEvent" />
-									<attribute id="ID" type="guid" value="d365729c-57b4-4563-bbd5-f7ba93ad705b" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
+									<attribute id="ID" type="guid" value="4876ee57-393a-49b9-bb33-3c9077efde4e" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
 									<children>
 										<node id="Actor">
@@ -46,23 +58,10 @@
 								</node>
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLAttitudeEvent" />
-									<attribute id="ID" type="guid" value="ce6db553-0faf-48c1-879e-f5495e0612ae" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLAttitudeEvent" />
-									<attribute id="ID" type="guid" value="aea760e9-a9c5-4fa9-88b2-05a90dcdc491" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
+									<attribute id="ID" type="guid" value="f0a92583-0170-400d-9066-8cda7b0ae631" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
 									<children>
 										<node id="Actor">
@@ -73,10 +72,10 @@
 								</node>
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLAttitudeEvent" />
-									<attribute id="ID" type="guid" value="23a9133e-64ad-4b2c-a643-c7b22213bbe7" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
+									<attribute id="ID" type="guid" value="ed45de78-1e59-4be9-8ede-7b8eb77094da" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
 									<children>
 										<node id="Actor">
@@ -87,10 +86,10 @@
 								</node>
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLEmotionEvent" />
-									<attribute id="ID" type="guid" value="d2fd7725-ee9e-4b8f-8103-9e2a08e17c58" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
+									<attribute id="ID" type="guid" value="d9f62292-9af0-419c-905f-7907a8db6d6b" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
 									<children>
 										<node id="Actor">
@@ -99,12 +98,63 @@
 										<node id="Keys">
 											<children>
 												<node id="Key">
-													<attribute id="Time" type="float" value="558.09448" />
+													<attribute id="Time" type="float" value="502.59448" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Emotion" type="int32" value="2" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="503.57448" />
 													<attribute id="InterpolationType" type="uint8" value="3" />
 													<attribute id="Emotion" type="int32" value="4" />
 												</node>
 												<node id="Key">
-													<attribute id="Time" type="float" value="559.01448" />
+													<attribute id="Time" type="float" value="506.22448" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Emotion" type="int32" value="16" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="507.36458" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Emotion" type="int32" value="4" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="508.97448" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Emotion" type="int32" value="64" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="510.44448" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Emotion" type="int32" value="4" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="511.74458" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Emotion" type="int32" value="2" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="513.87458" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Emotion" type="int32" value="16" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="515.74458" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Emotion" type="int32" value="4" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="517.39458" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Emotion" type="int32" value="4" />
+													<attribute id="Variation" type="int32" value="2" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="518.59448" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Emotion" type="int32" value="16" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="520.12458" />
 													<attribute id="InterpolationType" type="uint8" value="3" />
 													<attribute id="Emotion" type="int32" value="2" />
 												</node>
@@ -114,10 +164,10 @@
 								</node>
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLLookAtEvent" />
-									<attribute id="ID" type="guid" value="d11acd2b-a229-4a21-a7e7-6f2eb49052fc" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
+									<attribute id="ID" type="guid" value="5b60928e-d6a0-4b2e-ba2a-343b4ef1591e" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
 									<children>
 										<node id="Actor">
@@ -128,10 +178,10 @@
 								</node>
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLLookAtEvent" />
-									<attribute id="ID" type="guid" value="e9ef0a34-7959-4d62-bfad-fe948ebd71b1" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
+									<attribute id="ID" type="guid" value="a93189a3-8526-4c0e-bb8c-f290fdce6a1a" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
 									<children>
 										<node id="Actor">
@@ -142,10 +192,37 @@
 								</node>
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLLookAtEvent" />
-									<attribute id="ID" type="guid" value="4150c81b-8fb8-4772-92d2-09b6249d1c4e" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
+									<attribute id="ID" type="guid" value="820c8de0-982d-49d7-898b-4765ea4813ce" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
+									<attribute id="IsSnappedToEnd" type="bool" value="True" />
+									<children>
+										<node id="Actor">
+											<attribute id="UUID" type="guid" value="3175090a-e353-4e96-8a78-59db4e8bbc31" />
+											<attribute id="PeanutOverride" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+								<node id="EffectComponent">
+									<attribute id="Type" type="LSString" value="TLLookAtEvent" />
+									<attribute id="ID" type="guid" value="e8b65249-6bba-43e5-8639-92581797d668" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
+									<attribute id="IsSnappedToEnd" type="bool" value="True" />
+									<children>
+										<node id="Actor">
+											<attribute id="UUID" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
+										</node>
+									</children>
+								</node>
+								<node id="EffectComponent">
+									<attribute id="Type" type="LSString" value="TLLookAtEvent" />
+									<attribute id="ID" type="guid" value="f8a06e87-92b1-456f-98f3-9c0f1e8ab8aa" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
 									<children>
 										<node id="Actor">
@@ -154,34 +231,7 @@
 										<node id="Keys">
 											<children>
 												<node id="Key">
-													<attribute id="Time" type="float" value="558.60448" />
-													<attribute id="InterpolationType" type="uint8" value="3" />
-													<attribute id="Target" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
-													<attribute id="Bone" type="FixedString" value="Head_M" />
-													<attribute id="TurnMode" type="uint8" value="3" />
-													<attribute id="TurnSpeedMultiplier" type="float" value="0.05" />
-													<attribute id="HeadTurnSpeedMultiplier" type="float" value="0.05" />
-													<attribute id="Weight" type="double" value="0.15" />
-													<attribute id="IsEyeLookAtEnabled" type="bool" value="True" />
-													<attribute id="EyeLookAtTargetId" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
-													<attribute id="EyeLookAtBone" type="FixedString" value="Head_M" />
-													<attribute id="EyeLookAtOffset" type="fvec3" value="-0.75 -0.25 0" />
-												</node>
-												<node id="Key">
-													<attribute id="Time" type="float" value="559.42448" />
-													<attribute id="InterpolationType" type="uint8" value="3" />
-													<attribute id="Target" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
-													<attribute id="Bone" type="FixedString" value="Head_M" />
-													<attribute id="TurnMode" type="uint8" value="3" />
-													<attribute id="TurnSpeedMultiplier" type="float" value="0.05" />
-													<attribute id="HeadTurnSpeedMultiplier" type="float" value="0.05" />
-													<attribute id="Weight" type="double" value="0.15" />
-													<attribute id="IsEyeLookAtEnabled" type="bool" value="True" />
-													<attribute id="EyeLookAtTargetId" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
-													<attribute id="EyeLookAtBone" type="FixedString" value="Head_M" />
-												</node>
-												<node id="Key">
-													<attribute id="Time" type="float" value="560.30448" />
+													<attribute id="Time" type="float" value="513.81448" />
 													<attribute id="InterpolationType" type="uint8" value="3" />
 													<attribute id="Target" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
 													<attribute id="Bone" type="FixedString" value="Head_M" />
@@ -195,7 +245,34 @@
 													<attribute id="EyeLookAtOffset" type="fvec3" value="-0.5 -0.25 0" />
 												</node>
 												<node id="Key">
-													<attribute id="Time" type="float" value="560.84448" />
+													<attribute id="Time" type="float" value="515.34448" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Target" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
+													<attribute id="Bone" type="FixedString" value="Head_M" />
+													<attribute id="TurnMode" type="uint8" value="3" />
+													<attribute id="TurnSpeedMultiplier" type="float" value="0.05" />
+													<attribute id="HeadTurnSpeedMultiplier" type="float" value="0.05" />
+													<attribute id="Weight" type="double" value="0.15" />
+													<attribute id="IsEyeLookAtEnabled" type="bool" value="True" />
+													<attribute id="EyeLookAtTargetId" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
+													<attribute id="EyeLookAtBone" type="FixedString" value="Head_M" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="521.31448" />
+													<attribute id="InterpolationType" type="uint8" value="3" />
+													<attribute id="Target" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
+													<attribute id="Bone" type="FixedString" value="Head_M" />
+													<attribute id="TurnMode" type="uint8" value="3" />
+													<attribute id="TurnSpeedMultiplier" type="float" value="0.05" />
+													<attribute id="HeadTurnSpeedMultiplier" type="float" value="0.05" />
+													<attribute id="Weight" type="double" value="0.15" />
+													<attribute id="IsEyeLookAtEnabled" type="bool" value="True" />
+													<attribute id="EyeLookAtTargetId" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
+													<attribute id="EyeLookAtBone" type="FixedString" value="Head_M" />
+													<attribute id="EyeLookAtOffset" type="fvec3" value="-1 -0.25 0" />
+												</node>
+												<node id="Key">
+													<attribute id="Time" type="float" value="521.91448" />
 													<attribute id="InterpolationType" type="uint8" value="3" />
 													<attribute id="Target" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
 													<attribute id="Bone" type="FixedString" value="Head_M" />
@@ -212,58 +289,72 @@
 									</children>
 								</node>
 								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLLookAtEvent" />
-									<attribute id="ID" type="guid" value="1c53e5ec-ef0d-42fc-9304-34fc133ce4bb" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="3175090a-e353-4e96-8a78-59db4e8bbc31" />
-											<attribute id="PeanutOverride" type="bool" value="True" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLLookAtEvent" />
-									<attribute id="ID" type="guid" value="ae80b27f-ab7a-4ddf-95e5-567ca7dcfda4" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="45163d0c-5e1f-843f-c115-3d10fd0c6737" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLSwitchStageEvent" />
-									<attribute id="ID" type="guid" value="f01b66de-d713-4df7-b4cf-d96887605929" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
+									<attribute id="ID" type="guid" value="c870a974-b806-4dcb-92ab-7c496541f85c" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
 								</node>
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="69deb4b1-ceeb-4a9e-b376-755f2613d3bb" />
-									<attribute id="StartTime" type="float" value="558.09448" />
-									<attribute id="EndTime" type="float" value="560.84448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
+									<attribute id="ID" type="guid" value="e64ecf4b-2efa-474e-94cf-0a07cfda0412" />
+									<attribute id="StartTime" type="float" value="502.59448" />
+									<attribute id="EndTime" type="float" value="513.59448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
 									<children>
 										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="71a931da-5a51-461d-ae4e-cb7bcc4aa64c" />
+											<attribute id="Object" type="guid" value="c817773b-6b93-4507-b70a-7181647481f7" />
+										</node>
+									</children>
+								</node>
+								<node id="EffectComponent">
+									<attribute id="Type" type="LSString" value="TLVoice" />
+									<attribute id="ID" type="guid" value="fb0483ca-0329-4717-8eff-252ace1a9640" />
+									<attribute id="StartTime" type="float" value="513.59448" />
+									<attribute id="EndTime" type="float" value="523.59448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
+									<attribute id="DialogNodeId" type="guid" value="a5049fa9-7034-eb6d-87cb-6564440c92ec" />
+									<attribute id="ReferenceId" type="guid" value="a5049fa9-7034-eb6d-87cb-6564440c92ec" />
+									<attribute id="PerformanceFade" type="double" value="0" />
+									<attribute id="FadeIn" type="double" value="0" />
+									<attribute id="FadeOut" type="double" value="0" />
+									<children>
+										<node id="Actor">
+											<attribute id="UUID" type="guid" value="5857c874-40f2-20ed-24f6-32cca4a6d647" />
 										</node>
 									</children>
 								</node>
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="dfcc1bfc-beec-40b6-b45c-f6608e15c874" />
-									<attribute id="StartTime" type="float" value="560.84448" />
-									<attribute id="EndTime" type="float" value="561.34448" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
+									<attribute id="ID" type="guid" value="1441c676-df30-4f0b-9934-ada1f90f5557" />
+									<attribute id="StartTime" type="float" value="513.59448" />
+									<attribute id="EndTime" type="float" value="518.59448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
+									<children>
+										<node id="CameraContainer">
+											<attribute id="Object" type="guid" value="75d07ba1-3cc6-457f-afaf-279df356e4bc" />
+										</node>
+									</children>
+								</node>
+								<node id="EffectComponent">
+									<attribute id="Type" type="LSString" value="TLShot" />
+									<attribute id="ID" type="guid" value="37d9ca65-f1a7-45e5-961a-2e0342b5c9b7" />
+									<attribute id="StartTime" type="float" value="518.59448" />
+									<attribute id="EndTime" type="float" value="523.59448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
+									<children>
+										<node id="CameraContainer">
+											<attribute id="Object" type="guid" value="4bdd08bf-06dd-4d8a-8f2f-8aa606c0996a" />
+										</node>
+									</children>
+								</node>
+								<node id="EffectComponent">
+									<attribute id="Type" type="LSString" value="TLShot" />
+									<attribute id="ID" type="guid" value="a50d485a-422e-489b-b571-3a1ef8cba0e8" />
+									<attribute id="StartTime" type="float" value="523.59448" />
+									<attribute id="EndTime" type="float" value="524.09448" />
+									<attribute id="PhaseIndex" type="int64" value="91" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
 									<children>
 										<node id="CameraContainer">
@@ -271,4 +362,4 @@
 										</node>
 									</children>
 								</node>
-							<!-- </utmost> -->
+							<!-- </indeed>-->
