@@ -11,3 +11,5 @@
         [] clear (FLAG)GLO_Halsin_State_FlirtedWithPlayer_7ddc1485-8f29-4116-878b-a875649c5eaf when chosen
     [] Halsin will confess to the player ONLY if he has 20+ approval and is on the Romance Path
     [x] When telling Halsin to forget about the flirting, also clear (FLAG)GLO_Halsin_State_FlirtedWithPlayer_7ddc1485-8f29-4116-878b-a875649c5eaf
+
+    still need to add halsin answer nodes, the Q's for those, and the related timeline phases for SCE_Halsin
