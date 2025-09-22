@@ -3439,10 +3439,10 @@
 											<attribute id="UUID" type="FixedString" value="d684f9fd-e437-60f8-6f8a-a0a61b0aa552" />
 										</node>
 										<!-- romantic vers -->
-										<node id="child">
+										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="9c89d664-ec53-237e-73fe-110fb156dcb0" />
-										</node>
-										<!-- future platonic vers -->
+										</node> -->
+										<!-- platonic vers -->
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="c48202b1-ef36-3abd-3943-20968c34590e" />
 										</node>
@@ -3556,15 +3556,6 @@
 								</node>
 								<node id="checkflags">
 									<children>
-										<node id="flaggroup" key="type">
-											<attribute id="type" type="FixedString" value="Global" />
-											<children>
-												<node id="flag" key="UUID">
-													<attribute id="UUID" type="FixedString" value="7ddc1485-8f29-4116-878b-a875649c5eaf" />
-													<attribute id="value" type="bool" value="False" />
-												</node>
-											</children>
-										</node>
 										<node id="flaggroup" key="type">
 											<attribute id="type" type="FixedString" value="Dialog" />
 											<children>
@@ -5246,12 +5237,12 @@
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="9b4c87a5-a311-e986-158b-0ee555dadfc1" />
 										</node>
-										<!-- <node id="child">
+										<node id="child">
 											<attribute id="UUID" type="FixedString" value="9a81da08-1343-1915-911b-0eda8b3b306a" />
-										</node> -->
-										<!-- <node id="child">
+										</node>
+										<node id="child">
 											<attribute id="UUID" type="FixedString" value="7018d69e-e98b-ea82-0764-93cd613cadfd" />
-										</node> -->
+										</node>
 									</children>
 								</node>
 								<node id="GameData">

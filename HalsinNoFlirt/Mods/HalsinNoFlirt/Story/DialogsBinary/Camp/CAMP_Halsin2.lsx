@@ -5371,9 +5371,9 @@
 											<attribute id="UUID" type="FixedString" value="c1f5bf1a-7247-45c0-a9be-2aa7611f362a" />
 										</node> -->
 									<!-- Romantic v of what now -->
-										<node id="child">
+										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="78b034de-55d9-6147-6f83-a5b54b5d6756" />
-										</node>
+										</node> -->
 										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="95d6e4cd-1579-f79b-2be1-d4a9853a2713" />
 										</node> -->
@@ -11984,19 +11984,7 @@
 										</node>
 									</children>
 								</node>
-								<node id="checkflags">
-									<children>
-										<node id="flaggroup" key="type">
-											<attribute id="type" type="FixedString" value="Global" />
-											<children>
-												<node id="flag" key="UUID">
-													<attribute id="UUID" type="FixedString" value="7ddc1485-8f29-4116-878b-a875649c5eaf" />
-													<attribute id="value" type="bool" value="False" />
-												</node>
-											</children>
-										</node>
-									</children>
-								</node>
+								<node id="checkflags" />
 								<node id="TaggedTexts">
 									<children>
 										<node id="TaggedText">
