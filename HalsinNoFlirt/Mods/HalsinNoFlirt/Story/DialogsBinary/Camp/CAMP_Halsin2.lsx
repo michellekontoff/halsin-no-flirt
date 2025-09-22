@@ -1391,7 +1391,7 @@
 											<attribute id="UUID" type="FixedString" value="9bff5655-4f4a-47ad-9cb5-d4a053bd3f6b" />
 										</node>
 										<node id="child">
-											<attribute id="UUID" type="FixedString" value="954847d8-d034-6d98-b3c2-aeaf4bf7fcd7" />
+											<attribute id="UUID" type="FixedString" value="827cdbf9-de49-1349-f77e-a63c4cf044cb" />
 										</node>
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="177445a8-4ea8-89cb-392e-d28b1db5e898" />
@@ -7651,6 +7651,7 @@
 								<node id="checkflags" />
 							</children>
 						</node>
+						<!-- Apology -->
 						<node id="node" key="UUID">
 							<attribute id="constructor" type="FixedString" value="TagQuestion" />
 							<attribute id="UUID" type="FixedString" value="827cdbf9-de49-1349-f77e-a63c4cf044cb" />
@@ -7689,6 +7690,15 @@
 								<node id="checkflags">
 									<children>
 										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Global" />
+											<children>
+												<node id="flag" key="UUID">
+													<attribute id="UUID" type="FixedString" value="f6e72539-9bc6-42e1-a20f-390f3a17ad8d" />
+													<attribute id="value" type="bool" value="False" />
+												</node>
+											</children>
+										</node>
+										<node id="flaggroup" key="type">
 											<attribute id="type" type="FixedString" value="Dialog" />
 											<children>
 												<node id="flag" key="UUID">
@@ -7713,7 +7723,7 @@
 												<node id="TagTexts">
 													<children>
 														<node id="TagText">
-															<attribute id="TagText" type="TranslatedString" handle="hd7892868ga893g481agb945g68dbacab9388" version="1" />
+															<attribute id="TagText" type="TranslatedString" handle="h8a4bb07bgfc95g433fgb396g392e4d716560" version="1" />
 															<attribute id="LineId" type="guid" value="0bd03276-870f-4cc4-aa6f-6bd574dcd6b6" />
 															<attribute id="stub" type="bool" value="True" />
 														</node>
@@ -14289,9 +14299,9 @@
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="1a00cb63-3bcb-7e70-fd3a-f3d52660aeb0" />
 										</node>
-										<node id="child">
+										<!-- <node id="child">
 											<attribute id="UUID" type="FixedString" value="827cdbf9-de49-1349-f77e-a63c4cf044cb" />
-										</node>
+										</node> -->
 										<node id="child">
 											<attribute id="UUID" type="FixedString" value="27882a87-e6aa-fe55-35b5-d93cf4bdb917" />
 										</node>
