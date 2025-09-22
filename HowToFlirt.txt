@@ -7,7 +7,11 @@ By default, you will get the platonic version.
 
 If you have 20+ approval and have flirted with Halsin, you will unlock the romantic version of his Act 3 Camp Night.
 
-How to flirt with Halsin*:
+Earning Approval
+Contains spoilers: https://bg3.wiki/wiki/Halsin/Approval
+But as long as you finish Halsin's Act 2 quest and are nice when you speak to [redacted] (iykyk) after, you'll have enough. I decided to lower the approval requirement because you can easily trigger his camp night before you have enough approval by accident :(
+
+How to set Halsin's flirt flag*:
 
 *You only need to do one of these.
 
