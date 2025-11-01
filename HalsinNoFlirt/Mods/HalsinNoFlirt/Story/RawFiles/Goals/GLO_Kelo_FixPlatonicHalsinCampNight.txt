@@ -1,0 +1,34 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+FlagSet((FLAG)Halsin_InParty_Event_SoughtPersonalInfo_6cd0aa32-be55-fa3e-6a1c-e0e67e9222ff, _, _)
+AND
+DB_Avatars(_Avatar)
+THEN
+PROC_Kelo_FixHalsinCampNight(_Avatar);
+
+IF
+SaveGameLoaded()
+AND
+DB_Avatars(_Avatar)
+AND
+GetFlag((FLAG)Halsin_InParty_Event_SoughtPersonalInfo_6cd0aa32-be55-fa3e-6a1c-e0e67e9222ff, _Avatar, 1)
+AND
+QRY_OnlyOnce("Kelo_FixPlatonicHalsinCampNight_Patch")
+THEN
+PROC_Kelo_FixHalsinCampNight(_Avatar);
+
+PROC
+PROC_Kelo_FixHalsinCampNight((CHARACTER)_Avatar)
+AND
+NOT DB_CampNight_Completed((FLAG)NIGHT_Halsin_Romance_Suggestion_28195bc6-aa96-4d3d-bcb1-c89e692574bc)
+THEN
+SetFlag((FLAG)NIGHT_Halsin_Romance_Suggestion_28195bc6-aa96-4d3d-bcb1-c89e692574bc, _Avatar);
+SetFlag((FLAG)CAMP_Halsin2_Event_HalsinRomanceDebug_1b65ea78-f86f-41e7-97a6-9442bed9a6f7, _Avatar);
+
+EXITSECTION
+
+ENDEXITSECTION
